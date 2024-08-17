@@ -1,0 +1,12 @@
+/* Header specific styles */
+.menu-btn {
+    transition: transform 0.3s ease-in-out;
+  }
+  .menu-btn.open {
+    transform: rotate(45deg);
+  }
+  
+  #menu {
+    transition: max-height 0.3s ease-in-out;
+  }
+  
