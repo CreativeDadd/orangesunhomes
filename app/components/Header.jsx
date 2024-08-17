@@ -10,10 +10,13 @@ export default function Header() {
   };
 
   return (
-    <nav className="bg-white shadow-md animated-header">
+    <nav className="bg-white shadow-md animated-header fixed top-0 w-full z-50">
       <div className="container mx-auto px-6 py-4 flex justify-between items-center">
         <Link href="/" legacyBehavior>
-          <a className="text-2xl font-bold text-orange-600">Orange-Sun Homes</a>
+          <a className="text-2xl font-bold text-orange-600">
+            <img src="/assets/images/logo.svg" alt="Corporate-logo"  width={50} height={50} />
+          </a>
+          
         </Link>
         <div className="hidden md:flex space-x-6 items-center">
           <Link href="/" legacyBehavior>
