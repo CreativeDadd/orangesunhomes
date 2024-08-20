@@ -31,6 +31,9 @@ export default function Header() {
           <Link href="/blog" legacyBehavior>
             <a className="text-gray-600 hover:text-orange-600">Blog</a>
           </Link>
+          <Link href="/blog" legacyBehavior>
+            <a className="text-gray-600 hover:text-orange-600">FAQ</a>
+          </Link>
           <Link href="/contact" legacyBehavior>
             <a className="px-4 py-2 bg-orange-600 text-white font-semibold rounded-md shadow-md hover:bg-orange-700 transition duration-300">
               Contact
@@ -51,7 +54,7 @@ export default function Header() {
           </button>
         </div>
       </div>
-      <div id="menu" className={`md:hidden ${menuOpen ? '' : 'hidden'} px-6 py-4`}>
+      <div id="menu" className={`md:hidden ${menuOpen ? '' : 'hidden'} px-12 py-6 flex flex-col items-end space-y-6`}>
         <Link href="/" legacyBehavior>
           <a className="block text-gray-600 hover:text-orange-600">Home</a>
         </Link>
@@ -63,6 +66,9 @@ export default function Header() {
         </Link>
         <Link href="/blog" legacyBehavior>
           <a className="mt-2 block text-gray-600 hover:text-orange-600">Blog</a>
+        </Link>
+        <Link href="/faq" legacyBehavior>
+          <a className="mt-2 block text-gray-600 hover:text-orange-600">FAQ</a>
         </Link>
         <Link href="/contact" legacyBehavior>
           <a className="mt-4 block px-4 py-2 bg-orange-600 text-white font-semibold rounded-md shadow-md hover:bg-orange-700 transition duration-300">
