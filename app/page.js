@@ -7,6 +7,7 @@ import FaqSection from './sections/FaqSection';
 import GallerySlider from './sections/GallerySlider';
 import FeaturedProperties from './sections/FeaturedProperties';
 import TestimonialSection from './sections/TestimonialSection';
+import StaffSection from './sections/StaffSection';
 
 export default function HomePage() {
   return (
@@ -17,9 +18,10 @@ export default function HomePage() {
       <PropertiesListingSection />
       <FaqSection />
       <BlogSection />
-      <ContactSection />
       <FeaturedProperties />
       <TestimonialSection />
+      <StaffSection />
+      <ContactSection />
     </>
   );
 }
