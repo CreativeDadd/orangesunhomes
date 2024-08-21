@@ -5,6 +5,8 @@ import BlogSection from './sections/BlogSection';
 import ContactSection from './sections/ContactSection';
 import FaqSection from './sections/FaqSection';
 import GallerySlider from './sections/GallerySlider';
+import FeaturedProperties from './sections/FeaturedProperties';
+import TestimonialSection from './sections/TestimonialSection';
 
 export default function HomePage() {
   return (
@@ -16,6 +18,8 @@ export default function HomePage() {
       <FaqSection />
       <BlogSection />
       <ContactSection />
+      <FeaturedProperties />
+      <TestimonialSection />
     </>
   );
 }

@@ -11,9 +11,9 @@ export default function Header() {
 
   return (
     <nav className="bg-white shadow-md animated-header fixed top-0 w-full z-50">
-      <div className="container mx-auto px-6 py-4 flex justify-between items-center">
+      <div className="container mx-auto px-6 py-2 flex gap-2 justify-between items-center">
         <Link href="/" legacyBehavior>
-          <a className="text-2xl font-bold text-orange-600 flex items-center">
+          <a className="text-2xl font-bold text-orange-600 flex items-center text-1xl ">
             <img src="/assets/images/logo.svg" alt="Corporate-logo"  width={50} height={50} />
             <h3>Orange-Sun Homes Limited</h3>
           </a>
@@ -32,10 +32,10 @@ export default function Header() {
           <Link href="/blog" legacyBehavior>
             <a className="text-gray-600 hover:text-orange-600">Blog</a>
           </Link>
-          <Link href="/blog" legacyBehavior>
+          <Link href="/faq" legacyBehavior>
             <a className="text-gray-600 hover:text-orange-600">FAQ</a>
           </Link>
-          <Link href="/contact" legacyBehavior>
+          <Link href="/getintouch" legacyBehavior>
             <a className="px-4 py-2 bg-orange-600 text-white font-semibold rounded-md shadow-md hover:bg-orange-700 transition duration-300">
               Contact
             </a>
@@ -71,7 +71,7 @@ export default function Header() {
         <Link href="/faq" legacyBehavior>
           <a className="mt-2 block text-gray-600 hover:text-orange-600">FAQ</a>
         </Link>
-        <Link href="/contact" legacyBehavior>
+        <Link href="/getintouch" legacyBehavior>
           <a className="mt-4 block px-4 py-2 bg-orange-600 text-white font-semibold rounded-md shadow-md hover:bg-orange-700 transition duration-300">
             Contact
           </a>

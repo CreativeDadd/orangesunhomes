@@ -193,7 +193,7 @@ export default function HeroSection() {
             Explore Listings
           </motion.a>
           <motion.a
-            href="/contact"
+            href="/getintouch"
             className="px-8 py-3 bg-transparent border-2 border-white text-white font-semibold rounded-lg hover:bg-white hover:text-black transition duration-300"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
